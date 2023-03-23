@@ -1,0 +1,16 @@
+.black-banner {
+  background: linear-gradient(to bottom, $black 80%, white 20%);
+
+  .lead {
+    color: $pink;
+  }
+
+  h2 {
+    color: $white;
+  }
+
+  p {
+    color: $white;
+  }
+
+}

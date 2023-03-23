@@ -1,0 +1,23 @@
+#main-nav {
+  background-color: white;
+
+  .nav-link {
+    color: $black;
+
+    &:hover {
+      color: $pink;
+    }
+  }
+
+  .btn {
+    color: $black;
+    background: $pink;
+    border: none;
+
+    &:hover {
+      color: $white !important;
+      background: $black;
+      border: none;
+    }
+  }
+}
