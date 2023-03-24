@@ -1,0 +1,11 @@
+.features {
+  h3 {
+    color: $pink;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  section.features {
+    padding: 20px;
+  }
+}

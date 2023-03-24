@@ -1,6 +1,6 @@
 <section class="py-5">
     <div class="container">
-        <div class="home-banner p-5" style="background: url(<?php the_sub_field( 'background_image' ); ?>) no-repeat center center; background-size: contain;">
+        <div class="home-banner p-3 p-sm-3 p-md-4 p-lg-5" style="background: url(<?php the_sub_field( 'background_image' ); ?>) no-repeat center center; background-size: contain;">
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-8">
                     <h1 class="display-5">
@@ -34,7 +34,7 @@
                     <?php $mobile_image = get_sub_field( 'mobile_image' ); ?>
                     <?php $size = 'full'; ?>
                     <?php if ( $mobile_image ) : ?>
-                        <?php echo wp_get_attachment_image( $mobile_image, $size ); ?>
+                        <?php echo wp_get_attachment_image( $mobile_image, $size, false, array( 'class' => 'iphone' ) ); ?>
                     <?php endif; ?>
                 </div>
             </div>

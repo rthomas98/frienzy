@@ -1,6 +1,15 @@
 .black-banner {
   background: linear-gradient(to bottom, $black 80%, white 20%);
 
+  @include media-breakpoint-down(lg) {
+    background: $black;
+    text-align: center;
+    img {
+      width: 70%;
+      margin-bottom: 30px;
+    }
+  }
+
   .lead {
     color: $pink;
   }
@@ -12,5 +21,10 @@
   p {
     color: $white;
   }
+}
 
+@include media-breakpoint-down(lg) {
+  section.black-banner {
+    padding: 20px;
+  }
 }

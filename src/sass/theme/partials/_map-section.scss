@@ -16,3 +16,9 @@
     }
   }
 }
+
+@include media-breakpoint-down(lg) {
+  section.map-section {
+    padding: 20px;
+  }
+}

@@ -15448,9 +15448,41 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .home-banner h2, .home-banner .h2 {
   color: #FFFFFF;
 }
+@media (max-width: 991.98px) {
+  .home-banner {
+    background-color: #FF8579 !important;
+    background-image: none !important;
+    text-align: center;
+    border-radius: 40px;
+  }
+  .home-banner h1, .home-banner .h1 {
+    color: #1E1E1E;
+  }
+  .home-banner p {
+    color: #1E1E1E;
+    width: 100%;
+  }
+  .home-banner h2, .home-banner .h2 {
+    color: #1E1E1E;
+  }
+  .home-banner .iphone {
+    width: 70%;
+    margin-top: 40px !important;
+  }
+}
 
 .black-banner {
   background: linear-gradient(to bottom, #1E1E1E 80%, white 20%);
+}
+@media (max-width: 991.98px) {
+  .black-banner {
+    background: #1E1E1E;
+    text-align: center;
+  }
+  .black-banner img {
+    width: 70%;
+    margin-bottom: 30px;
+  }
 }
 .black-banner .lead {
   color: #FF8579;
@@ -15462,6 +15494,11 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #FFFFFF;
 }
 
+@media (max-width: 991.98px) {
+  section.black-banner {
+    padding: 20px;
+  }
+}
 .map-section {
   background-color: #FFFFFF;
 }
@@ -15476,6 +15513,21 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 @media (max-width: 991.98px) {
   .map-section h2, .map-section .h2 {
     width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  section.map-section {
+    padding: 20px;
+  }
+}
+.features h3, .features .h3 {
+  color: #FF8579;
+}
+
+@media (max-width: 991.98px) {
+  section.features {
+    padding: 20px;
   }
 }
 

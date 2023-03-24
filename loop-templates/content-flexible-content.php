@@ -16,6 +16,10 @@ if ( get_field( 'blocks' ) ) :
             include( get_stylesheet_directory() . '/acf-blocks/map-section.php' );
         endif;
 
+        if ( get_row_layout() == 'features' ):
+            include( get_stylesheet_directory() . '/acf-blocks/features.php' );
+        endif;
+
     endwhile;
 endif;
 ?>
