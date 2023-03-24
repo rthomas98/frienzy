@@ -15530,5 +15530,85 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     padding: 20px;
   }
 }
+.pink-banner h2, .pink-banner .h2 {
+  color: #FFFFFF;
+}
+.pink-banner p {
+  color: #FFFFFF;
+  width: 50%;
+  margin: 40px auto;
+}
+@media (max-width: 991.98px) {
+  .pink-banner p {
+    width: 100%;
+  }
+}
+
+.subscribe h2, .subscribe .h2 {
+  text-align: center;
+}
+.subscribe p {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto 40px auto;
+}
+@media (max-width: 991.98px) {
+  .subscribe p {
+    width: 100%;
+  }
+}
+.subscribe form.fluent_form_2 .wpf_has_custom_css.ff-btn-submit {
+  background-color: #1E1E1E;
+  border-color: #1E1E1E;
+  color: #FF8579;
+  min-width: 100%;
+}
+.subscribe form.fluent_form_2 .wpf_has_custom_css.ff-btn-submit:hover {
+  background-color: #FF8579;
+  border-color: #FF8579;
+  color: #1E1E1E;
+}
+
+.contact {
+  background-color: #1E1E1E;
+}
+.contact h2, .contact .h2 {
+  color: #FF8579;
+}
+.contact p {
+  color: #FFFFFF;
+}
+.contact p strong {
+  font-weight: bolder;
+}
+.contact a {
+  color: #FF8579;
+}
+.contact a:hover {
+  color: #FFFFFF;
+}
+.contact .fluentform .ff-el-input--label label {
+  display: inline-block;
+  font-weight: 600;
+  line-height: inherit;
+  margin-bottom: 0;
+  color: #FFFFFF;
+}
+.contact form.fluent_form_1 .ff-btn-submit {
+  background-color: #FF8579;
+  color: #1E1E1E;
+  border: none;
+}
+.contact form.fluent_form_1 .ff-btn-submit:hover {
+  background-color: #FFFFFF;
+  color: #1E1E1E;
+}
+.contact i {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+.contact i:hover {
+  color: #FF8579;
+}
 
 /*# sourceMappingURL=child-theme.css.map */

@@ -1,0 +1,49 @@
+.contact {
+  background-color: $black;
+
+  h2 {
+    color: $pink;
+  }
+    p {
+        color: $white;
+
+      strong {
+        font-weight: bolder;
+      }
+    }
+
+  a {
+    color: $pink;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .fluentform .ff-el-input--label label {
+    display: inline-block;
+    font-weight: 600;
+    line-height: inherit;
+    margin-bottom: 0;
+    color: $white;
+  }
+  form.fluent_form_1 .ff-btn-submit {
+    background-color: $pink;
+    color: $black;
+    border: none;
+
+    &:hover {
+      background-color: $white;
+      color: $black;
+    }
+  }
+
+  i {
+    color: $white;
+    font-size: 25px;
+
+    &:hover {
+      color: $pink;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.subscribe {
+
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 40px auto;
+
+    @include media-breakpoint-down(lg) {
+      width: 100%;
+    }
+  }
+
+  form.fluent_form_2 .wpf_has_custom_css.ff-btn-submit {
+    background-color: $black;
+    border-color: $black;
+    color: $pink;
+    min-width: 100%;
+
+    &:hover {
+      background-color: $pink;
+      border-color: $pink;
+      color: $black;
+    }
+  }
+}
