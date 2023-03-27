@@ -30,7 +30,7 @@
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                 <h3 class="mb-3">
-                    <?php the_sub_field( 'for_attendees_title' ); ?>
+                    <?php the_sub_field( 'for_event-operators_title' ); ?>
                 </h3>
 
                 <?php if ( have_rows( 'event_operators_details' ) ) : ?>
